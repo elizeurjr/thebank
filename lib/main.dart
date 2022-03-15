@@ -12,12 +12,18 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('The Bank'),
         ),
+        body: Card(
+          child: ListTile(
+            leading: Icon(Icons.monetization_on),
+            title: Text('titulo transferencia'),
+            subtitle: Text('valor transferencia'),
+          ),
+        ),
         floatingActionButton: FloatingActionButton(
           child: Icon(Icons.add),
           onPressed: () {},
         ),
-        ),
-      );
-
+      ),
+    );
   }
 }
