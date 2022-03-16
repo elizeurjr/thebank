@@ -24,6 +24,13 @@ Os componentes relacionaods ao Material Design trazem uma gama de recursos que c
 
   Alertar o usuário com informações ou mensagens por meio do Snackbars, Banners ou Dialogs
 
-[Material Design](https://material.io/design/introduction#principles)
+Referencia: [Material Design](https://material.io/design/introduction#principles)
 
+# Compreenção e manuseio de Widget Tree
 
+Organização de componentes, respeitando a hierarquia de widgets. (MaterialApp>Scaffold>Column>Card>ListTile)
+Repare nos componentes que se conectam, respeitando e herdando do Material Design os estilos e orientação. 
+
+As classes posteriormente criadas (ListaTransferencia, ItemTransferencia) não exibem, pois trabalham como componentes de cunho estrutural para os widgets e seus dados. 
+
+O primeiro paragrafo é uma exibição da arvore apartir da ferramenta já contida no Flutter, o Flutter Inspector, já esta segunda é a representação também da arvore, mas com uma versão mais simples, sem a extração de widgets (tema posterior).
